@@ -1,4 +1,3 @@
-from django.dispatch import Signal
+from django import dispatch
 
-# arguments: instance, request
-honeypot = Signal()
+honeypot = dispatch.Signal()
